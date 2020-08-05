@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.top-bar {
+    /* display: inline-block; */
+    width: 100%;
+    border: solid blue 2px;
+    height: 100px;
+    position: fixed;
+}
+
+.top-bar > img {
+    padding: 20px;
+}
+
+.background-image {
+    background-image: url('homebanner.jpg');
+    height: 600px;
+}
+
+.top-bar-parent {
+    position: relative;
+}
+
+.top__baruser-module-parent {
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 1100px;
+    font-size: large;
+    color: white;
+}
+
+.top-bar__user-module > p {
+    display: inline-block;
+}
