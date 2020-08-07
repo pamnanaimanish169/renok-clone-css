@@ -7,7 +7,6 @@ body {
 .top-bar {
     /* display: inline-block; */
     width: 100%;
-    border: solid blue 2px;
     height: 100px;
     position: fixed;
 }
@@ -41,7 +40,6 @@ body {
 }
 
 .description {
-    border: solid blue 2px;
     text-align: center;
     position: absolute;
     top: 40%;
@@ -51,7 +49,6 @@ body {
 }
 
 .button {
-    border: solid black 4px;
     display: inline-block;
     position: absolute;
     top: 70%;
@@ -70,4 +67,70 @@ body {
     background-color: blue;
     border: none;
     height: 100%;
+}
+
+footer {
+    background-color: #00ACB2;
+    display: inline-block;
+    width: 100%;
+}
+
+footer > div {
+    display: block;
+    margin-left: 100px;
+    /* z-index: -1; */
+    padding: 0;
+    width: 15%;
+    color: white;
+    font-size: 20px;
+}
+
+footer > p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    color: white;
+}
+
+.about_renok {
+}
+
+.about_renok>ul>li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.about_renok>ul>li:hover {
+    text-decoration: underline;
+}
+
+.partnerships>ul>li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.partnerships>ul>li:hover {
+    text-decoration: underline;
+}
+
+.terms_of_use>ul>li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.terms_of_use>ul>li:hover {
+    text-decoration: underline;
+}
+
+.ask_renok_button {
+}
+
+.ask_renok_button > button {
+    border: solid white ;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    padding: 20px;
+    width: 80%;
 }
