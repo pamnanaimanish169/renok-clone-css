@@ -170,3 +170,9 @@ footer  {
     padding: 20px;
     width: 100%;
 }
+
+.ask_renok_button > button:hover {
+    background-color: white;
+    color: #00ACB2;
+    text-decoration: underline
+}
