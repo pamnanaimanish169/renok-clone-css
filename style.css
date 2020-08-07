@@ -85,6 +85,7 @@ footer  {
 }
 
 .footer_content {
+    padding-top: 50px;
     display: inline-block;
     width: 20%;
     margin-left: 50px;
